@@ -1,6 +1,3 @@
 #!/usr/bin/sh
 uname -n
-uptime
-whoami
-last 
-pwd
+kubectl get nodes
