@@ -13,5 +13,17 @@ pipeline {
       }
     }
 
+    stage('deploy') {
+      steps {
+        echo 'deploy'
+      }
+    }
+
+    stage('monitor') {
+      steps {
+        echo 'monitoring'
+      }
+    }
+
   }
 }
